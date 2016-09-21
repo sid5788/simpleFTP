@@ -1,0 +1,10 @@
+Command used to create 1 MB file :
+dd if=/dev/zero of=output.file bs=1024 count=1024
+
+Online references used during the project:
+https://wiki.python.org/moin/UdpCommunication
+http://www.unix.com/shell-programming-and-scripting/26389-creating-file-1mb-using-shell-command.html
+https://docs.python.org/2/library/signal.html
+https://docs.python.org/3/library/signal.html
+http://stackoverflow.com/questions/1767910/checksum-udp-calculation-python
+http://stackoverflow.com/questions/10237926/convert-string-to-list-of-bits-and-viceversa
